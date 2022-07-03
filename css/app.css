@@ -1,0 +1,33 @@
+.letra-inicio{
+    font-weight: bold;
+    font-size: 30px;
+    color: darkgreen;
+}
+.logo-imagen{
+    height: 50px;
+    width: 50px;
+}
+.imagen-carousel{
+    height: 500px;
+}
+.contenedor-nav{ /*Al quitar se arregla el bug del responsivo */
+    display: flex!important;
+    flex-basis: auto;
+    flex-direction: row-reverse;
+}
+footer {
+    background: rgb(1, 34, 3);
+    height: 22rem;
+    border-top: 2px solid rgba(0, 0, 0, 0.24);  
+    /*  poner footer abajo */
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+footer p{
+    color: rgb(255, 255, 255);
+}
+.footer-p{
+    color: black;
+}
